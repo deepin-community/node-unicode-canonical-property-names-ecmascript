@@ -1,0 +1,24 @@
+Source: node-unicode-canonical-property-names-ecmascript
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-tape <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-unicode-canonical-property-names-ecmascript
+Vcs-Git: https://salsa.debian.org/js-team/node-unicode-canonical-property-names-ecmascript.git
+Homepage: https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-unicode-canonical-property-names-ecmascript
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Unicode property names supported in ES RegExp in Node.js
+ This module provides the set of canonical Unicode property names supported
+ in ECMAScript RegExp property escapes.
+ .
+ Node.js is an event-based server-side JavaScript engine.

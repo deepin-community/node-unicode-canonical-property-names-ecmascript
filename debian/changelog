@@ -1,0 +1,76 @@
+node-unicode-canonical-property-names-ecmascript (2.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test using tape instead of ava
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 14:19:58 +0100
+
+node-unicode-canonical-property-names-ecmascript (2.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 18 Sep 2021 09:17:53 +0200
+
+node-unicode-canonical-property-names-ecmascript (1.0.4-4) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 22 Aug 2021 08:18:51 +0200
+
+node-unicode-canonical-property-names-ecmascript (1.0.4-3) unstable; urgency=medium
+
+  [ Julien Puydt ]
+  * Install in /usr/share/nodejs instead of /usr/lib/nodejs.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Julien Puydt ]
+  * Mark the import autopkgtest as superficial.
+  * Bump dh compat to 13.
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 10 Nov 2020 07:18:37 +0100
+
+node-unicode-canonical-property-names-ecmascript (1.0.4-2) unstable; urgency=medium
+
+  * Mark the package M-A: foreign following hinter.
+  * Drop d/compat and depend on dh-compat 12.
+  * Bump std-vers to 4.5.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 15 Mar 2020 08:15:39 +0100
+
+node-unicode-canonical-property-names-ecmascript (1.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Update dates in d/copyright.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.1.5.
+    - Use salsa in Vcs-* fields.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Jul 2018 11:43:26 +0200
+
+node-unicode-canonical-property-names-ecmascript (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-ver to 4.1.1.
+  * Bump d/watch to version 4.
+  * Move from section web to section javascript.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 23 Oct 2017 09:19:39 +0200
+
+node-unicode-canonical-property-names-ecmascript (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #872655)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 19 Aug 2017 22:15:34 +0200

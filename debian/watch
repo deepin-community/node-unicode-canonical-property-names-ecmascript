@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-unicode-canonical-property-names-ecmascript-$1/ \
+ https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/tags .*/v?([\d\.]+).tar.gz
